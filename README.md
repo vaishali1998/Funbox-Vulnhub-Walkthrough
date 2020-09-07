@@ -4,11 +4,11 @@ Here is Walkthrough of Vulnhub Machine Funbox Boot2Root ! This is a reallife sze
 
 ## Scanning
 
-**nmap -p- 192.168.122.151**
+**nmap -p- 192.168.122.151 (Full port scan)**
 
 ![Funbox%20~Vulnhub%20Walkthrough%20ac4c9170016f41b39c6c6e0a52f7caef/Untitled.png](Funbox%20~Vulnhub%20Walkthrough%20ac4c9170016f41b39c6c6e0a52f7caef/Untitled.png)
 
-**nmap -sV -A 192.168.122.151**
+**nmap -sV -A 192.168.122.151 (Service version scan)**
 
 ![Funbox%20~Vulnhub%20Walkthrough%20ac4c9170016f41b39c6c6e0a52f7caef/Untitled%201.png](Funbox%20~Vulnhub%20Walkthrough%20ac4c9170016f41b39c6c6e0a52f7caef/Untitled%201.png)
 
@@ -16,7 +16,7 @@ Here is Walkthrough of Vulnhub Machine Funbox Boot2Root ! This is a reallife sze
 
 ![Funbox%20~Vulnhub%20Walkthrough%20ac4c9170016f41b39c6c6e0a52f7caef/Untitled%202.png](Funbox%20~Vulnhub%20Walkthrough%20ac4c9170016f41b39c6c6e0a52f7caef/Untitled%202.png)
 
-Running nikto 
+Running nikto on web
 
 **nikto -h http://192.168.122.151**
 
